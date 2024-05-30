@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/Mate.ico" type="image/x-icon">
     <title>Mateando</title>
 
     <style>
@@ -86,6 +86,13 @@
             max-width: 25%;
             height: auto;
         }
+
+        .imagen3{
+            float: right;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
         .article {
             float: left;
             width: 70%;
@@ -94,7 +101,14 @@
             margin: 10px;
             border: 1px solid #CCC;
         }
-
+        .instruc{
+            float: left;
+            width: 70%;
+            padding: 10px;
+            margin: 10px;
+            text-align: left;
+            
+        }
         .footer {
             background-color: #333;
             color: #FFF;
@@ -129,9 +143,6 @@
 
     <h2 style="margin: 15px;">¡Bienvenidos al Mundo del Mate!</h2>
     <hr>
-    <div class="centrado">
-        <audio src="/assets/audio/Entre Guitarras e Milongas.mp3" autoplay controls></audio>
-    </div>
 
     <article class="container">
         <h3>El origen del mate</h3>
@@ -157,7 +168,7 @@
               "Preparar el mate es todo un ritual. Aquí te explicamos cómo hacerlo paso
               a paso:
          </p>
-         <div></div>
+         <div class="instruc">
             <ol>
               <li>
                 Elige la Yerba: Selecciona una buena yerba mate, preferiblemente de
@@ -182,6 +193,7 @@
               </li>
             </ol>
         </div> 
+        <img src="assets/img/mate2.jpg" alt="imagen mate2" class="imagen3">
 
      <footer class="footer">
         <p> Derechos reservados Mateando &copy; 2024</p>
