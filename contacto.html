@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Glottis, el gato</title>
+    <link rel="shortcut icon" href="/assets/Mate.ico" type="image/x-icon">
+    <title>Mateando</title>
     <style>
                 body {
             font-family: "Lucida Console", "Courier New", monospace;
@@ -52,6 +52,9 @@
             padding: 10px;
             margin: 0;
             color: #333;
+        }
+        .completa{
+            text-align: center;
         }
 
         input[type=text],
@@ -100,9 +103,6 @@
 <body>
     <header>
         <h1>Mateando</h1>
-        <div class="centrado">
-            <audio src="/assets/audio/Sin fronteras - Milonga Pampeana.mp3" autoplay controls></audio>
-        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -112,7 +112,7 @@
             </ul>
         </nav>
     </header>
-    <P>Completa el formulario para mas información</P>
+    <P class="completa">Completa el formulario para mas información</P>
 
     <div class="contenedor-formulario">
         <form>
@@ -133,7 +133,7 @@
                 <option value="Colombia">Colombia</option>
                 <option value="Venezuela">Venezuela</option>
                 <option value="Paraguay">Paraguay</option>
-                <option value="Ecuaador">Ecuaador</option>
+                <option value="Ecuador">Ecuaador</option>
             </select>
             <label for="comentario">Comentario: </label>
             <textarea name="comentario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
