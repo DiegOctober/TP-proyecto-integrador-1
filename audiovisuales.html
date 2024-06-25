@@ -6,98 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/Mate.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style/audiovisuales.css">
     <title>Mateando</title>
-
-    <style>
-        body {
-            font-family: "Lucida Console", "Courier New", monospace;
-            background: linear-gradient(to right, rgb(135, 220, 79), rgb(255, 233, 236));
-            padding: 0;
-            margin: 0;
-        }
-
-        header {
-            text-align: center;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover:not(.active) {
-            background-color: #02ac66;
-        }
-
-        .active {
-            background-color: #04AA6D;
-        }
-
-        h1 {
-            background-color: #02ac66;
-            padding: 10px;
-            margin: 0;
-            color: #333;
-        }
-
-        div.gallery {
-            margin: 5px;
-            border: 1px solid #ccc;
-            float: left;
-            width: 33vw;
-        }
-
-        div.gallery:hover {
-            border: 1px solid #777;
-        }
-
-        div.gallery img {
-            width: 100%;
-            height: auto;
-        }
-
-        div.desc {
-            padding: 15px;
-            text-align: center;
-        }
-
-        .centrado {
-            display: flex;
-            justify-content:center;
-        }
-        .titulo{
-            background-color: #02ac66;
-            padding: 5px;
-            margin: 0px;
-        }
-        .arti{
-            color: #333;
-            text-align: center;
-        }
-        .footer {
-            background-color: #333;
-            color: #FFF;
-            padding: 10px;
-            text-align: center;
-            clear: both;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -114,42 +25,27 @@
         </nav>
     </header>
 
-    <div class="centrado">
+    <div class="deLado">
         <video src="/assets/videos/Mate.mp4" autoplay controls width="400"></video>
     </div>
-    <div class="titulo">
-        <h2 class="arti">Articulos de MATEANDO</h2>
+    <div>
+        <h2>Articulos de MATEANDO</h2>
     </div>
 
     <section class="centrado">
-        <div class="gallery">
-            <a href="/assets/img/remera mate.jpg" target="_blank"><img src="/assets/img/remera mate.jpg" alt="imagen Remera" width="400"></a>
-            <div class="desc">Articulo 0344</div>
+        <div class="galeria">
+            <a href="/assets/img/yerba kalena.webp" target="_blank"><img src="/assets/img/yerba kalena.webp" alt="yerba kalena" width="300"></a>
+            <div class="descripcion">Articulo 0344</div>
         </div>
-        <div class="gallery">
-            <a href="/assets/img/remera mate 2.jpeg" target="_blank"><img src="/assets/img/remera mate 2.jpeg" alt="Imagen remera 2" width="400"></a>
-            <div class="desc">Articulo 0356</div>
-        </div>
-        <div class="gallery">
-            <a href="/assets/img/remera mate 3.jpeg" target="_blank"><img src="/assets/img/remera mate 3.jpeg" alt="Imagen remera 3" width="400"></a>
-            <div class="desc">Articulo 0342</div>
-        </div>
-        <div class="gallery">
-            <a href="/assets/img/canarias.webp" target="_blank"><img src="/assets/img/canarias.webp" alt="imagen Remera" width="400"></a>
-            <div class="desc">Articulo 0336</div>
-        </div>
-        <div class="gallery">
-            <a href="/assets/img/mate rojo.jpg" target="_blank"><img src="/assets/img/mate rojo.jpg" alt="imagen Remera" width="400"></a>
-            <div class="desc">Articulo 0332</div>
-        </div>
-        <div class="gallery">
-            <a href="/assets/img/jasper.jpg" target="_blank"><img src="/assets/img/jasper.jpg" alt="imagen Remera" width="400"></a>
-            <div class="desc">Articulo 0331</div>
+    
+        <div class="galeria">
+            <a href="/assets/img/yerba selecta.png" target="_blank"><img src="/assets/img/yerba selecta.png" alt="yerba selecta" width="300"></a>
+            <div class="descripcion">Articulo 0342</div>
         </div>
     </section>
 
 
-    <footer class="footer">
+    <footer>
         <p>Derechos reservados Mateando &copy; 2023</p>
     </footer>
 

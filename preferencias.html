@@ -6,87 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/Mate.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style/preferencias.css">
     <title>Mateando</title>
-
-    <style>
-                body {
-            font-family: "Lucida Console", "Courier New", monospace;
-            background: linear-gradient(to right, rgb(135, 220, 79), rgb(255, 233, 236));
-            padding: 0;
-            margin: 0;
-        }
-
-        .container{
-            display: flex;
-            justify-content: center;
-        }
-
-        header {
-            text-align: center;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover:not(.active) {
-            background-color: #02ac66;
-        }
-
-        .active {
-            background-color: #92a4ff;
-        }
-
-        h1 {
-            background-color: #02ac66;
-            padding: 10px;
-            margin: 0;
-            color: #333 ;
-        }
-
-        table {
-            border-collapse: collapse;
-            border: 2px solid rgb(255, 255, 255);
-            letter-spacing: 1px;
-            font-size: 1.5rem;
-            background-color: #FFF;
-        }
-
-        td {
-            border: 1px solid #02ac66;
-            padding: 10px 20px;
-        }
-
-        th {
-            border: 1px solid #02ac66;
-            padding: 10px 20px;
-            background-color: #02ac66;
-        }
-
-        .footer {
-            background-color: #333333;
-            color: #FFF;
-            padding: 10px;
-            text-align: center;
-            clear: both;
-        }
-    </style>
 </head>
 
 <body>
@@ -100,7 +22,7 @@
             <ul>
               <!-- se crean enlaces internos o externos en un documento HTML,en forma de hipervínculo..  -->
               <li><a href="index.html">Home </a></li>
-              <li><a href="preferencias.html">Preferencias</a></li>
+              <li><a class="active" href="preferencias.html">Preferencias</a></li>
               <li><a href="audioVisuales.html">Galeria</a></li>
               <li><a href="contacto.html ">Contacto</a></li>
             </ul>
@@ -108,12 +30,12 @@
     
     </header>
 
-    <h2 style="margin: 15px;">Las 5 Yerbas más Preferidas por los argentinos</h2>
+    <h2>Las 5 Yerbas más Preferidas por los argentinos</h2>
     <hr>
-    <div class="container">
+    <div class="contenedor">
         <table>
             <colgroup>
-                <col style="background-color: rgb(207, 207, 207);">
+                <col style="background-color:rgb(119, 115, 115);">
                 <col>
                 <col>
                 <col>
@@ -151,7 +73,7 @@
 
         </table>
     </div>
-     <footer class="footer">
+     <footer>
         <p>Derechos reservados Mateando &copy; 2024</p>
     </footer>
 
